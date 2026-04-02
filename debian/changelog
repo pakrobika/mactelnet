@@ -1,0 +1,129 @@
+mactelnet (0.6.1-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Make requirement for root when building the package explicit.
+    (Closes: #1089381)
+
+ -- Niels Thykier <niels@thykier.net>  Wed, 01 Jan 2025 18:26:36 +0000
+
+mactelnet (0.6.1-1) unstable; urgency=medium
+
+  [ Håkon Nessjøen ]
+  * Upstream release 0.6.1
+  * Updated d/copyright with new copyrights
+  * Added "Documentation" tag to d/mactelnet-server.service file
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Mon, 12 Aug 2024 23:17:11 +0200
+
+mactelnet (0.5.2-1) unstable; urgency=medium
+
+  [ Håkon Nessjøen ]
+  * Upstream release 0.5.2
+  * Upstream code fixed gettimeofday issue (closes: #1075246)
+  * Updated d/control with multiarch:foreign for mactelnet-locales
+  * Updated debian policy standards version to 4.7.0
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Wed, 31 Jul 2024 21:28:32 +0200
+
+mactelnet (0.5.1-2) unstable; urgency=medium
+
+  * Source-only upload.
+  * d/control: repository moved to Debian group
+
+ -- Luca Boccassi <bluca@debian.org>  Fri, 03 May 2024 23:33:47 +0100
+
+mactelnet (0.5.1-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Drop unnecessary dependency on dh-autoreconf.
+  * Rely on pre-initialized dpkg-architecture variables.
+  * Fix day-of-week for changelog entries 0.3.4-1, 0.3.2-2.
+
+  [ Håkon Nessjøen ]
+  * Upstream release 0.5.1
+  * Converted to systemd-service (closes: #1039260)
+  * Locale files are not modified during build any more (closes: #1047023)
+  * Updated debian/watch and upstream signing key
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Mon, 23 Apr 2024 13:12:12 +0200
+
+mactelnet (0.4.4-4) unstable; urgency=low
+
+  * Updated debhelper build-depends version, to reflect compat level.
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Tue, 11 Oct 2016 14:36:00 +0200
+
+mactelnet (0.4.4-3) unstable; urgency=low
+
+  * Updated compat level
+  * Changed vcs url to https
+  * Added PIE hardening
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Tue, 11 Oct 2016 12:36:43 +0200
+
+mactelnet (0.4.4-2) unstable; urgency=low
+
+  * Updated standards version to 3.9.8
+  * Added automake/autoconf to build-depends
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Tue, 11 Oct 2016 12:23:12 +0200
+
+mactelnet (0.4.4-1) unstable; urgency=low
+
+  * Upstream release 0.4.4
+  * Includes upstream bugfix of CVE 2016-7115 (closes: #836320)
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Mon, 10 Oct 2016 23:34:22 +0200
+
+mactelnet (0.4.2-1) unstable; urgency=low
+
+  * Upstream release 0.4.2
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Mon, 16 Nov 2015 10:46:38 +0200
+
+mactelnet (0.4.1-2) unstable; urgency=low
+
+  * Bug fixed upstream (closes: #749658)
+  * Enabled gpg-check in watch file
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Fri, 13 Nov 2015 13:13:44 +0200
+
+mactelnet (0.4.1-1) unstable; urgency=low
+
+  * Upstream release 0.4.1
+  * Updated changelog with correct date format
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Thu, 12 Nov 2015 00:57:21 +0200
+
+mactelnet (0.4.0-1) unstable; urgency=low
+
+  * Upstream release 0.4.0
+  * Updated copyright file with correct license information.
+  * Updated copyright file with new format version.
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Sat, 21 Jul 2012 10:11:12 +0100
+
+mactelnet (0.3.4-1) unstable; urgency=low
+
+  * Upstream release 0.3.4
+  * Added librt as dependancy for kfreebsd platform.
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Mon, 21 Nov 2011 18:44:52 +0100
+
+mactelnet (0.3.2-2) unstable; urgency=low
+
+  * Fixed a problem where the init script was unable to stop mactelnet-server.
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Thu, 10 Nov 2011 20:41:03 +0100
+
+mactelnet (0.3.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #615823)
+
+ -- Håkon Nessjøen <haakon.nessjoen@gmail.com>  Tue, 01 Nov 2011 16:33:22 +0100

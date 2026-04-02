@@ -1,0 +1,2 @@
+version=4
+opts=pgpsigurlmangle=s/$/.asc/ https://lunatic.no/mactelnet/ mactelnet-(.*)\.tar\.gz
